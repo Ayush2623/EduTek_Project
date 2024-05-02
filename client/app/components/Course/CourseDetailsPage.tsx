@@ -15,7 +15,7 @@ import { useLoadUserQuery } from "@/redux/features/api/apiSlice";
 type Props = {
   id: string;
 };
-
+w
 const CourseDetailsPage = ({ id }: Props) => {
   const [route, setRoute] = useState("Login");
   const [open, setOpen] = useState(false);
@@ -51,9 +51,9 @@ const CourseDetailsPage = ({ id }: Props) => {
       ) : (
         <div>
           <Heading
-            title={data.course.name + " - ELearning"}
+            title={data.course.name + " - EduTek"}
             description={
-              "ELearning is a programming community which is developed by shahriar sajeeb for helping programmers"
+              "EduTek is a programming community which is developed by GLA Students for helping programmers"
             }
             keywords={data?.course?.tags}
           />
