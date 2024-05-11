@@ -15,7 +15,7 @@ import { useLoadUserQuery } from "@/redux/features/api/apiSlice";
 type Props = {
   id: string;
 };
-w
+
 const CourseDetailsPage = ({ id }: Props) => {
   const [route, setRoute] = useState("Login");
   const [open, setOpen] = useState(false);
