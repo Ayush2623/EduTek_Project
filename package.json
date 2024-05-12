@@ -1,0 +1,12 @@
+{
+  "name": "edutek_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.ts",
+  "scripts": {
+    
+
+  },
+  "author": "",
+  "license": "ISC"
+}
