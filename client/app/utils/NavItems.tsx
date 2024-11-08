@@ -11,6 +11,10 @@ export const navItemsData = [
     url: "/courses",
   },
   {
+    name: "Live Classes",
+    url: "http://localhost:3006",
+  },
+  {
     name: "About",
     url: "/about",
   },
